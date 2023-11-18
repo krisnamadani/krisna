@@ -1,113 +1,277 @@
-import Image from 'next/image'
+import { AiFillMail, AiFillLinkedin, AiFillInstagram, AiFillGithub } from "react-icons/ai";
+import { IoLocationSharp } from "react-icons/io5";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
+    <div className="mx-auto max-w-screen-md py-10">
+      <div className="text-center">
+        <h1 className="text-4xl font-semibold uppercase tracking-wider mb-1">
+          <span className="text-sky-600">Krisna</span> Madani
+        </h1>
+        <p className="text-gray-500 font-semibold uppercase tracking-wider">
+          Web Developer
         </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+      </div>
+
+      <hr class="h-px mt-8 mb-4 border-0 bg-gray-400" />
+
+      <div className="flex flex-row justify-center gap-8">
+        <a
+          href="mailto:krisnamadani@gmail.com"
+          className="text-sm text-gray-700 hover:text-sky-600"
+        >
+          <AiFillMail className="inline-block mr-1" />
+          krisnamadani@gmail.com
+        </a>
+        <a href="#" className="text-sm text-gray-700 hover:text-sky-600">
+          <AiFillLinkedin className="inline-block mr-1" />
+          krisnamadani
+        </a>
+        <a href="#" className="text-sm text-gray-700 hover:text-sky-600">
+          <AiFillInstagram className="inline-block mr-1" />
+          krisnamadani
+        </a>
+        <a href="#" className="text-sm text-gray-700 hover:text-sky-600">
+          <IoLocationSharp className="inline-block mr-1" />
+          Pontianak, Kalimantan Barat
+        </a>
+      </div>
+
+      <hr class="h-px mb-8 mt-4 border-0 bg-gray-400" />
+
+      <div className="flex flex-row">
+        <div className="basis-1/4">
+          <span className="text-sky-600 uppercase font-semibold">Profile</span>
+        </div>
+        <div className="basis-3/4">
+          <p className="text-gray-700">
+            Hello, I&apos;m Krisna Madani. I have 2 years experience building
+            and maintaining web application. Proficient in HTML, CSS,
+            Javascript, PHP and Laravel. I have worked on several
+            single-handedly projects and worked as back-end devleoper in under 6
+            months. I&apos;ve also collaborated with other peoples to create web
+            application.
+          </p>
         </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <hr class="h-px my-8 border-0 bg-gray-400" />
+
+      <div className="flex flex-row">
+        <div className="basis-1/4">
+          <span className="text-sky-600 uppercase font-semibold">
+            Experience
+          </span>
+        </div>
+        <div className="basis-3/4">
+          <div className="mb-8">
+            <div className="font-semibold mb-1">
+              <span className="uppercase">IT Staff</span> -{" "}
+              <span className="text-sky-600">Nov 2022 - Nov 2023</span>
+            </div>
+            <p className="text-gray-700 mb-1">
+              PT. Eannovate Creative Technology / Jakarta
+            </p>
+            <ul className="list-disc list-outside ml-4">
+              <li className="text-gray-700">
+                Collaborated building web application using PHP and Laravel.
+              </li>
+              <li className="text-gray-700">
+                Helped to improve and maintain existing web application.
+              </li>
+            </ul>
+          </div>
+
+          <div className="mb-8">
+            <div className="font-semibold mb-1">
+              <span className="uppercase">Back-End Developer</span> -{" "}
+              <span className="text-sky-600">Feb 2022 - Jul 2022</span>
+            </div>
+            <p className="text-gray-700 mb-1">
+              PT. Medika Digitalisasi Indonesia / Pontianak
+            </p>
+            <ul className="list-disc list-outside ml-4">
+              <li className="text-gray-700">
+                Designed and developed database structure.
+              </li>
+              <li className="text-gray-700">
+                Created REST API for front-end application and developed web
+                application using Laravel.
+              </li>
+            </ul>
+          </div>
+
+          <div className="mb-0">
+            <div className="font-semibold mb-1">
+              <span className="uppercase">Freelancer</span> -{" "}
+              <span className="text-sky-600">Sep 2020 - Dec 2021</span>
+            </div>
+            <p className="text-gray-700 mb-1">Pontianak</p>
+            <ul className="list-disc list-outside ml-4">
+              <li className="text-gray-700">
+                Design and develop web application for client.
+              </li>
+              <li className="text-gray-700">
+                Created Elman Recurrent Neural Network, K-Modes, KNN, Naive
+                Bayes and C4.5 algorithm from scratch using Python and PHP.
+              </li>
+              <li className="text-gray-700">
+                Developed firmware for IoT device using Arduino. Make it able to
+                connect to the internet and perform update over the air.
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+      <hr class="h-px my-8 border-0 bg-gray-400" />
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className="flex flex-row">
+        <div className="basis-1/4">
+          <span className="text-sky-600 uppercase font-semibold">
+            Education
+          </span>
+        </div>
+        <div className="basis-3/4">
+          <div className="mb-0">
+            <div className="font-semibold mb-1">
+              <span className="uppercase">Bachelor of Computer Science</span> -{" "}
+              <span className="text-sky-600">Agu 2017 - Jul 2022</span>
+            </div>
+            <p className="text-gray-700 mb-1">
+              Computer Systems Engineering, Tanjungpura University / Pontianak
+            </p>
+            <ul className="list-disc list-outside ml-4">
+              <li className="text-gray-700">GPA: 3.83</li>
+              <li className="text-gray-700">
+                Graduated with cum laude predicate.
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </main>
-  )
+
+      <hr class="h-px my-8 border-0 bg-gray-400" />
+
+      <div className="flex flex-row">
+        <div className="basis-1/4">
+          <span className="text-sky-600 uppercase font-semibold">Skills</span>
+        </div>
+        <div className="basis-3/4">
+          <div className="mb-8">
+            <div className="font-semibold mb-1">
+              <span className="uppercase">Technical Skills</span>
+            </div>
+            <ul className="list-disc list-outside ml-4">
+              <li className="text-gray-700">
+                <span className="font-semibold">Programming Languages</span>:
+                PHP, Javascript, Python
+              </li>
+              <li className="text-gray-700">
+                <span className="font-semibold">Frameworks</span>: Laravel,
+                Bootstrap
+              </li>
+              <li className="text-gray-700">
+                <span className="font-semibold">Database</span>: MySQL
+              </li>
+              <li className="text-gray-700">
+                <span className="font-semibold">Others</span>: Git, Linux
+              </li>
+            </ul>
+          </div>
+
+          <div className="mb-8">
+            <div className="font-semibold mb-1">
+              <span className="uppercase">Soft Skills</span>
+            </div>
+            <div className="text-gray-700">
+              Communication, Teamork, Problem Solving
+            </div>
+          </div>
+
+          <div className="mb-0">
+            <div className="font-semibold mb-1">
+              <span className="uppercase">Im Currently Learning About</span>
+            </div>
+            <div className="text-gray-700">
+              Flask, GoLang, Flutter, NodeJS, ReactJS, NextJS, TailwindCSS,
+              Docker, PostgreSQL, MongoDB
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="h-px my-8 border-0 bg-gray-400" />
+
+      <div className="flex flex-row">
+        <div className="basis-1/4">
+          <span className="text-sky-600 uppercase font-semibold">
+            Certifications
+          </span>
+        </div>
+        <div className="basis-3/4">
+          <div className="mb-0">
+            <div className="font-semibold mb-1">
+              <span className="uppercase">
+                Become a Back-End Web Developer
+              </span>{" "}
+              - <span className="text-sky-600">Feb 2021</span>
+            </div>
+            <div className="text-gray-700">
+              Dicoding -{" "}
+              <a href="" className="text-gray-700 hover:text-sky-600">
+                dicoding.com/certificates
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="h-px my-8 border-0 bg-gray-400" />
+
+      <div className="flex flex-row">
+        <div className="basis-1/4">
+          <span className="text-sky-600 uppercase font-semibold">Projects</span>
+        </div>
+        <div className="basis-3/4">
+          <div className="mb-8">
+            <div className="font-semibold mb-1">
+              <span className="uppercase">
+                Github
+              </span>
+            </div>
+            <div className="text-gray-700">
+              <a href="https://github.com/krisnamadani" className="text-gray-700 hover:text-sky-600">
+                <AiFillGithub className="inline-block mr-1" />
+                github.com/krisnamadani
+              </a>
+            </div>
+          </div>
+
+          <div className="mb-0">
+            <div className="font-semibold mb-1">
+              <span className="uppercase">Crud with Laravel</span>
+            </div>
+            <p className="text-gray-700 mb-1">
+              Simple create read update delete (crud) data with laravel
+            </p>
+            <ul className="list-disc list-outside ml-4">
+              <li className="text-gray-700">
+                <span className="font-semibold">Repository</span>: <a href="" className="text-gray-700 hover:text-sky-600">github.com/krisnamadani/laravel-crud</a>
+              </li>
+              <li className="text-gray-700">
+                <span className="font-semibold">Demo</span>: <a href="" className="text-gray-700 hover:text-sky-600">demo.krisna.me/laravel-crud</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <hr class="h-px mt-8 border-0 bg-gray-400" />
+
+      <div className="text-gray-700 text-sm text-center mt-10">
+        Made with ❤️ by me - 2023
+      </div>
+    </div>
+  );
 }
