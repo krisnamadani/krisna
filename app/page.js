@@ -1,4 +1,9 @@
-import { AiFillMail, AiFillLinkedin, AiFillInstagram, AiFillGithub } from "react-icons/ai";
+import {
+  AiFillMail,
+  AiFillLinkedin,
+  AiFillInstagram,
+  AiFillGithub,
+} from "react-icons/ai";
 import { IoLocationSharp } from "react-icons/io5";
 
 export default function Home() {
@@ -18,20 +23,33 @@ export default function Home() {
       <div className="flex flex-row justify-center gap-8">
         <a
           href="mailto:krisnamadani@gmail.com"
+          target="_blank"
           className="text-sm text-gray-700 hover:text-sky-600"
         >
           <AiFillMail className="inline-block mr-1" />
           krisnamadani@gmail.com
         </a>
-        <a href="#" className="text-sm text-gray-700 hover:text-sky-600">
+        <a
+          href="https://www.linkedin.com/in/krisnamadani/"
+          target="_blank"
+          className="text-sm text-gray-700 hover:text-sky-600"
+        >
           <AiFillLinkedin className="inline-block mr-1" />
           krisnamadani
         </a>
-        <a href="#" className="text-sm text-gray-700 hover:text-sky-600">
+        <a
+          href="https://www.instagram.com/krisnamadani/"
+          target="_blank"
+          className="text-sm text-gray-700 hover:text-sky-600"
+        >
           <AiFillInstagram className="inline-block mr-1" />
           krisnamadani
         </a>
-        <a href="#" className="text-sm text-gray-700 hover:text-sky-600">
+        <a
+          href="https://www.google.com/maps/place/Kec.+Pontianak+Kota,+Kota+Pontianak,+Kalimantan+Barat/@-0.0398506,109.2942654,14z/data=!3m1!4b1!4m6!3m5!1s0x2e1d591b89347e33:0xee314674cadc0aec!8m2!3d-0.022743!4d109.3293581!16s%2Fm%2F05b2xj7?entry=ttu"
+          target="_blank"
+          className="text-sm text-gray-700 hover:text-sky-600"
+        >
           <IoLocationSharp className="inline-block mr-1" />
           Pontianak, Kalimantan Barat
         </a>
@@ -210,17 +228,114 @@ export default function Home() {
           </span>
         </div>
         <div className="basis-3/4">
-          <div className="mb-0">
+          <div className="mb-8">
             <div className="font-semibold mb-1">
               <span className="uppercase">
-                Become a Back-End Web Developer
+                Memulai Pemrograman dengan Kotlin
               </span>{" "}
-              - <span className="text-sky-600">Feb 2021</span>
+              - <span className="text-sky-600">Nov 2022</span>
             </div>
             <div className="text-gray-700">
               Dicoding -{" "}
-              <a href="" className="text-gray-700 hover:text-sky-600">
-                dicoding.com/certificates
+              <a
+                href="https://www.dicoding.com/certificates/MRZML9REKXYQ"
+                target="_blank"
+                className="text-gray-700 hover:text-sky-600"
+              >
+                dicoding.com/certificates/MRZML9REKXYQ
+              </a>
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <div className="font-semibold mb-1">
+              <span className="uppercase">
+                Belajar Membuat Front-End Web untuk Pemula
+              </span>{" "}
+              - <span className="text-sky-600">Oct 2022</span>
+            </div>
+            <div className="text-gray-700">
+              Dicoding -{" "}
+              <a
+                href="https://www.dicoding.com/certificates/2VX3Y2N24PYQ"
+                target="_blank"
+                className="text-gray-700 hover:text-sky-600"
+              >
+                dicoding.com/certificates/2VX3Y2N24PYQ
+              </a>
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <div className="font-semibold mb-1">
+              <span className="uppercase">Belajar Dasar Pemrograman Web</span> -{" "}
+              <span className="text-sky-600">Oct 2022</span>
+            </div>
+            <div className="text-gray-700">
+              Dicoding -{" "}
+              <a
+                href="https://www.dicoding.com/certificates/07Z6G5L5YXQR"
+                target="_blank"
+                className="text-gray-700 hover:text-sky-600"
+              >
+                dicoding.com/certificates/07Z6G5L5YXQR
+              </a>
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <div className="font-semibold mb-1">
+              <span className="uppercase">
+                Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)
+              </span>{" "}
+              - <span className="text-sky-600">Aug 2022</span>
+            </div>
+            <div className="text-gray-700">
+              Dicoding -{" "}
+              <a
+                href="https://www.dicoding.com/certificates/RVZK6QJRNZD5"
+                target="_blank"
+                className="text-gray-700 hover:text-sky-600"
+              >
+                dicoding.com/certificates/RVZK6QJRNZD5
+              </a>
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <div className="font-semibold mb-1">
+              <span className="uppercase">
+                Belajar Membuat Aplikasi Back-End untuk Pemula
+              </span>{" "}
+              - <span className="text-sky-600">Aug 2022</span>
+            </div>
+            <div className="text-gray-700">
+              Dicoding -{" "}
+              <a
+                href="https://www.dicoding.com/certificates/81P2GDJVYPOY"
+                target="_blank"
+                className="text-gray-700 hover:text-sky-600"
+              >
+                dicoding.com/certificates/81P2GDJVYPOY
+              </a>
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <div className="font-semibold mb-1">
+              <span className="uppercase">
+                Belajar Dasar Pemrograman JavaScript
+              </span>{" "}
+              - <span className="text-sky-600">Aug 2022</span>
+            </div>
+            <div className="text-gray-700">
+              Dicoding -{" "}
+              <a
+                href="https://www.dicoding.com/certificates/N9ZO7RJO6ZG5"
+                target="_blank"
+                className="text-gray-700 hover:text-sky-600"
+              >
+                dicoding.com/certificates/N9ZO7RJO6ZG5
               </a>
             </div>
           </div>
@@ -236,12 +351,14 @@ export default function Home() {
         <div className="basis-3/4">
           <div className="mb-8">
             <div className="font-semibold mb-1">
-              <span className="uppercase">
-                Github
-              </span>
+              <span className="uppercase">Github</span>
             </div>
             <div className="text-gray-700">
-              <a href="https://github.com/krisnamadani" className="text-gray-700 hover:text-sky-600">
+              <a
+                href="https://github.com/krisnamadani"
+                target="_blank"
+                className="text-gray-700 hover:text-sky-600"
+              >
                 <AiFillGithub className="inline-block mr-1" />
                 github.com/krisnamadani
               </a>
@@ -257,10 +374,20 @@ export default function Home() {
             </p>
             <ul className="list-disc list-outside ml-4">
               <li className="text-gray-700">
-                <span className="font-semibold">Repository</span>: <a href="" className="text-gray-700 hover:text-sky-600">github.com/krisnamadani/laravel-crud</a>
+                <span className="font-semibold">Repository</span>:{" "}
+                <a
+                  href="https://github.com/krisnamadani/laravel-crud"
+                  target="_blank"
+                  className="text-gray-700 hover:text-sky-600"
+                >
+                  github.com/krisnamadani/laravel-crud
+                </a>
               </li>
               <li className="text-gray-700">
-                <span className="font-semibold">Demo</span>: <a href="" className="text-gray-700 hover:text-sky-600">demo.krisna.me/laravel-crud</a>
+                <span className="font-semibold">Demo</span>:{" "}
+                <a href="#" className="text-gray-700 hover:text-sky-600">
+                  ~
+                </a>
               </li>
             </ul>
           </div>
