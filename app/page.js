@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="mx-auto max-w-screen-md py-10">
+    <div className="mx-auto max-w-screen-md p-10 md:px-0 md:py-10">
       <div className="text-center">
         <Image
           class="w-44 h-44 mx-auto mb-8"
@@ -28,7 +28,7 @@ export default function Home() {
 
       <hr class="h-px mt-8 mb-4 border-0 bg-gray-400" />
 
-      <div className="flex flex-row justify-center gap-8">
+      <div className="flex flex-col md:flex-row text-center md:justify-center gap-4 md:gap-8">
         <a
           href="mailto:krisnamadani@gmail.com"
           target="_blank"
@@ -65,11 +65,11 @@ export default function Home() {
 
       <hr class="h-px mb-8 mt-4 border-0 bg-gray-400" />
 
-      <div className="flex flex-row">
-        <div className="basis-1/4">
+      <div className="flex flex-col md:flex-row">
+        <div className="mb-8 md:mb-0 md:basis-1/4">
           <span className="text-sky-600 uppercase font-semibold">Profile</span>
         </div>
-        <div className="basis-3/4">
+        <div className="md:basis-3/4">
           <p className="text-gray-700">
             Hello, I&apos;m Krisna Madani. I have 2 years experience building
             and maintaining web application. Proficient in HTML, CSS,
@@ -83,13 +83,13 @@ export default function Home() {
 
       <hr class="h-px my-8 border-0 bg-gray-400" />
 
-      <div className="flex flex-row">
-        <div className="basis-1/4">
+      <div className="flex flex-col md:flex-row">
+        <div className="mb-8 md:mb-0 md:basis-1/4">
           <span className="text-sky-600 uppercase font-semibold">
             Experience
           </span>
         </div>
-        <div className="basis-3/4">
+        <div className="md:basis-3/4">
           <div className="mb-8">
             <div className="font-semibold mb-1">
               <span className="uppercase">Software Engineer</span> -{" "}
@@ -138,7 +138,7 @@ export default function Home() {
                 Design and develop web application for client.
               </li>
               <li className="text-gray-700">
-                Created Elman Recurrent Neural Network, K-Modes, KNN, Naive
+                Created Neural Network, K-Modes, KNN, Naive
                 Bayes and C4.5 algorithm from scratch using Python and PHP.
               </li>
               <li className="text-gray-700">
@@ -152,13 +152,13 @@ export default function Home() {
 
       <hr class="h-px my-8 border-0 bg-gray-400" />
 
-      <div className="flex flex-row">
-        <div className="basis-1/4">
+      <div className="flex flex-col md:flex-row">
+        <div className="mb-8 md:mb-0 md:basis-1/4">
           <span className="text-sky-600 uppercase font-semibold">
             Education
           </span>
         </div>
-        <div className="basis-3/4">
+        <div className="md:basis-3/4">
           <div className="mb-0">
             <div className="font-semibold mb-1">
               <span className="uppercase">Bachelor of Computer Science</span> -{" "}
@@ -179,11 +179,11 @@ export default function Home() {
 
       <hr class="h-px my-8 border-0 bg-gray-400" />
 
-      <div className="flex flex-row">
-        <div className="basis-1/4">
+      <div className="flex flex-col md:flex-row">
+        <div className="mb-8 md:mb-0 md:basis-1/4">
           <span className="text-sky-600 uppercase font-semibold">Skills</span>
         </div>
-        <div className="basis-3/4">
+        <div className="md:basis-3/4">
           <div className="mb-8">
             <div className="font-semibold mb-1">
               <span className="uppercase">Technical Skills</span>
@@ -229,13 +229,13 @@ export default function Home() {
 
       <hr class="h-px my-8 border-0 bg-gray-400" />
 
-      <div className="flex flex-row">
-        <div className="basis-1/4">
+      <div className="flex flex-col md:flex-row">
+        <div className="mb-8 md:mb-0 md:basis-1/4">
           <span className="text-sky-600 uppercase font-semibold">
             Certifications
           </span>
         </div>
-        <div className="basis-3/4">
+        <div className="md:basis-3/4">
           <div className="mb-8">
             <div className="font-semibold mb-1">
               <span className="uppercase">
@@ -352,11 +352,11 @@ export default function Home() {
 
       <hr class="h-px my-8 border-0 bg-gray-400" />
 
-      <div className="flex flex-row">
-        <div className="basis-1/4">
+      <div className="flex flex-col md:flex-row">
+        <div className="mb-8 md:mb-0 md:basis-1/4">
           <span className="text-sky-600 uppercase font-semibold">Projects</span>
         </div>
-        <div className="basis-3/4">
+        <div className="md:basis-3/4">
           <div className="mb-8">
             <div className="font-semibold mb-1">
               <span className="uppercase">Github</span>
