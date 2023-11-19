@@ -5,11 +5,19 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import { IoLocationSharp } from "react-icons/io5";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="mx-auto max-w-screen-md py-10">
       <div className="text-center">
+        <Image
+          class="w-44 h-44 mx-auto mb-8"
+          src="/krisnamadani.png"
+          alt="Krisna Madani"
+          width={200}
+          height={200}
+        />
         <h1 className="text-4xl font-semibold uppercase tracking-wider mb-1">
           <span className="text-sky-600">Krisna</span> Madani
         </h1>
@@ -84,7 +92,7 @@ export default function Home() {
         <div className="basis-3/4">
           <div className="mb-8">
             <div className="font-semibold mb-1">
-              <span className="uppercase">IT Staff</span> -{" "}
+              <span className="uppercase">Software Engineer</span> -{" "}
               <span className="text-sky-600">Nov 2022 - Nov 2023</span>
             </div>
             <p className="text-gray-700 mb-1">
@@ -154,7 +162,7 @@ export default function Home() {
           <div className="mb-0">
             <div className="font-semibold mb-1">
               <span className="uppercase">Bachelor of Computer Science</span> -{" "}
-              <span className="text-sky-600">Agu 2017 - Jul 2022</span>
+              <span className="text-sky-600">Aug 2017 - Jul 2022</span>
             </div>
             <p className="text-gray-700 mb-1">
               Computer Systems Engineering, Tanjungpura University / Pontianak
