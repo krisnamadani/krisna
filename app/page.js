@@ -105,6 +105,9 @@ export default function Home() {
               <li className="text-gray-700">
                 Helped to improve and maintain existing web application.
               </li>
+              <li className="text-gray-700">
+                Integrated third party API to web application, such as payment and authentication.
+              </li>
             </ul>
           </div>
 
@@ -135,7 +138,7 @@ export default function Home() {
             <p className="text-gray-700 mb-1">Pontianak</p>
             <ul className="list-disc list-outside ml-4">
               <li className="text-gray-700">
-                Design and develop web application for client.
+                Designed and developed web application for client.
               </li>
               <li className="text-gray-700">
                 Created Neural Network, K-Modes, KNN, Naive
