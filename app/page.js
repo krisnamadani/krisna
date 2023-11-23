@@ -132,10 +132,10 @@ export default function Home() {
 
           <div className="mb-0">
             <div className="font-semibold mb-1">
-              <span className="uppercase">Freelancer</span> -{" "}
+              <span className="uppercase">Web Developer</span> -{" "}
               <span className="text-sky-600">Sep 2020 - Dec 2021</span>
             </div>
-            <p className="text-gray-700 mb-1">Pontianak</p>
+            <p className="text-gray-700 mb-1">Freelance</p>
             <ul className="list-disc list-outside ml-4">
               <li className="text-gray-700">
                 Designed and developed web application for client.
@@ -223,7 +223,7 @@ export default function Home() {
               <span className="uppercase">Im Currently Learning About</span>
             </div>
             <div className="text-gray-700">
-              Flask, GoLang, Flutter, NodeJS, ReactJS, NextJS, TailwindCSS,
+              Codeigniter, Flask, GoLang, Flutter, NodeJS, ReactJS, NextJS, TailwindCSS,
               Docker, PostgreSQL, MongoDB
             </div>
           </div>
