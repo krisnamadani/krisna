@@ -214,7 +214,7 @@ export default function Home() {
               <span className="uppercase">Soft Skills</span>
             </div>
             <div className="text-gray-700">
-              Communication, Teamork, Problem Solving
+              Communication, Teamwork, Problem Solving
             </div>
           </div>
 
